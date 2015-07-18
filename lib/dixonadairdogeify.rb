@@ -1,7 +1,15 @@
 require "dixonadairdogeify/version"
 
 module Dixonadairdogeify
-	def self.bark
-		"woof"	
+	class Array
+		def self.bark
+			"woof"	
+		end
+	end
+
+	class String
+		def self.bark
+			"woof woof!"			
+		end
 	end
 end
