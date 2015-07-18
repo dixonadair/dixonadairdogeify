@@ -15,7 +15,13 @@ module Dixonadairdogeify
 
 	class String
 		def self.bark
-			puts "woof woof!"			
+			puts "woof woof!"		
 		end
+	end
+end
+
+class Some
+	def self.hi
+		puts "hey"
 	end
 end
